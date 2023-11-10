@@ -13,7 +13,10 @@ const ItemPopupContent = ({closeModal}) => {
         </div>
         <div className={styles.itemPopupTable}>
             <div className={styles.itemPopupTableLine}>
-                <p className={styles.type}>Экскурсия</p>
+                <div className="containerInfo">
+                    <p className={styles.type}>Экскурсия</p>
+                    <p className={styles.type}> +7 (929) 323-12-33</p>
+                </div>
                 <div className={styles.info}>
                     <div className="infoContent">
                         <p className={styles.type}><span>Дата:</span> 13.02.2024</p>
@@ -23,7 +26,10 @@ const ItemPopupContent = ({closeModal}) => {
                 </div>
             </div>
             <div className={styles.itemPopupTableLine}>
-                <p className={styles.type}>Экскурсия</p>
+                <div className="containerInfo">
+                    <p className={styles.type}>Экскурсия</p>
+                    <p className={styles.type}> +7 (929) 323-12-33</p>
+                </div>
                 <div className={styles.info}>
                     <div className="infoContent">
                         <p className={styles.type}><span>Дата:</span> 13.02.2024</p>
@@ -33,7 +39,10 @@ const ItemPopupContent = ({closeModal}) => {
                 </div>
             </div>
             <div className={styles.itemPopupTableLine}>
-                <p className={styles.type}>Экскурсия</p>
+                <div className="containerInfo">
+                    <p className={styles.type}>Экскурсия</p>
+                    <p className={styles.type}> +7 (929) 323-12-33</p>
+                </div>
                 <div className={styles.info}>
                     <div className="infoContent">
                         <p className={styles.type}><span>Дата:</span> 13.02.2024</p>

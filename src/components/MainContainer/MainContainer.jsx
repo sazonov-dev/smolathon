@@ -93,6 +93,47 @@ const MainContainer = ({openModal, closeModal, isOpen, modalComponent}) => {
                             <p className={styles.description}>Смоленский кремль возводился с 1596 по 1602 год под руководством знаменитого зодчего Федора Коня. Уже через 7 лет после постройки крепость проверяла на прочность армия польского короля Сигизмунда III. Осада длилась до весны 1611 г. В 1812 году приходили французы, а в 1941 — немцы. До наших дней крепость уцелела не полностью. Из 39 башен сохранилось только 18. Но и сейчас Смоленский кремль выглядит впечатляюще и является главным символом города.</p>
                         </div>
                     </article>
+                    <article className={styles.gridItem} onClick={cardHandler} id="card">
+                        <div className={styles.gridItemLike} onClick={likeHandler} id="likeContainer">
+                            <img className="likeImg" src={likeImg} alt="Иконка лайка" id="likeImg" data-state="defalut"/>
+                        </div>
+                        <img className={styles.gridItemImg} src={testImg} alt="Фотография смоленская крепость"/>
+                        <div className={styles.articleContent}>
+                            <h2 className={styles.articleTitle}>Смоленская крепость</h2>
+                            <p className={styles.description}>Смоленский кремль возводился с 1596 по 1602 год под руководством знаменитого зодчего Федора Коня. Уже через 7 лет после постройки крепость проверяла на прочность армия польского короля Сигизмунда III. Осада длилась до весны 1611 г. В 1812 году приходили французы, а в 1941 — немцы. До наших дней крепость уцелела не полностью. Из 39 башен сохранилось только 18. Но и сейчас Смоленский кремль выглядит впечатляюще и является главным символом города.</p>
+                        </div>
+                    </article>
+                    <article className={styles.gridItem} onClick={cardHandler} id="card">
+                        <div className={styles.gridItemLike} onClick={likeHandler} id="likeContainer">
+                            <img className="likeImg" src={likeImg} alt="Иконка лайка" id="likeImg" data-state="defalut"/>
+                        </div>
+                        <img className={styles.gridItemImg} src={testImg} alt="Фотография смоленская крепость"/>
+                        <div className={styles.articleContent}>
+                            <h2 className={styles.articleTitle}>Смоленская крепость</h2>
+                            <p className={styles.description}>Смоленский кремль возводился с 1596 по 1602 год под руководством знаменитого зодчего Федора Коня. Уже через 7 лет после постройки крепость проверяла на прочность армия польского короля Сигизмунда III. Осада длилась до весны 1611 г. В 1812 году приходили французы, а в 1941 — немцы. До наших дней крепость уцелела не полностью. Из 39 башен сохранилось только 18. Но и сейчас Смоленский кремль выглядит впечатляюще и является главным символом города.</p>
+                        </div>
+                    </article>
+                    <article className={styles.gridItem} onClick={cardHandler} id="card">
+                        <div className={styles.gridItemLike} onClick={likeHandler} id="likeContainer">
+                            <img className="likeImg" src={likeImg} alt="Иконка лайка" id="likeImg" data-state="defalut"/>
+                        </div>
+                        <img className={styles.gridItemImg} src={testImg} alt="Фотография смоленская крепость"/>
+                        <div className={styles.articleContent}>
+                            <h2 className={styles.articleTitle}>Смоленская крепость</h2>
+                            <p className={styles.description}>Смоленский кремль возводился с 1596 по 1602 год под руководством знаменитого зодчего Федора Коня. Уже через 7 лет после постройки крепость проверяла на прочность армия польского короля Сигизмунда III. Осада длилась до весны 1611 г. В 1812 году приходили французы, а в 1941 — немцы. До наших дней крепость уцелела не полностью. Из 39 башен сохранилось только 18. Но и сейчас Смоленский кремль выглядит впечатляюще и является главным символом города.</p>
+                        </div>
+                    </article>
+                    <article className={styles.gridItem} onClick={cardHandler} id="card">
+                        <div className={styles.gridItemLike} onClick={likeHandler} id="likeContainer">
+                            <img className="likeImg" src={likeImg} alt="Иконка лайка" id="likeImg" data-state="defalut"/>
+                        </div>
+                        <img className={styles.gridItemImg} src={testImg} alt="Фотография смоленская крепость"/>
+                        <div className={styles.articleContent}>
+                            <h2 className={styles.articleTitle}>Смоленская крепость</h2>
+                            <p className={styles.description}>Смоленский кремль возводился с 1596 по 1602 год под руководством знаменитого зодчего Федора Коня. Уже через 7 лет после постройки крепость проверяла на прочность армия польского короля Сигизмунда III. Осада длилась до весны 1611 г. В 1812 году приходили французы, а в 1941 — немцы. До наших дней крепость уцелела не полностью. Из 39 башен сохранилось только 18. Но и сейчас Смоленский кремль выглядит впечатляюще и является главным символом города.</p>
+                        </div>
+                    </article>
+
                 </div>
             </section>
             {isOpen && (
