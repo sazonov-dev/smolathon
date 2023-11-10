@@ -1,0 +1,66 @@
+.header {
+    background-color: #EBE9ED;
+    border-bottom: 1px solid #3B3748;
+}
+
+.headerContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerAuth {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    margin: 0;
+    max-width: 150px;
+    font-size: 18px;
+    color: #3B3748;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.wanted {
+    all: unset;
+    cursor: pointer;
+    font-size: 18px;
+    color: #3B3748;
+    font-weight: 600;
+}
+
+.wantedContainer {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.likeIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.donate {
+    all: unset;
+    cursor: pointer;
+    padding: 12px 24px;
+    background-color: #3839bc;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 26px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 640px) {
+    .headerContainer {
+        flex-direction: column;
+    }
+}

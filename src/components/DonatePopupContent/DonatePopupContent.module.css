@@ -1,0 +1,58 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    color: #3B3748;
+    padding: 40px;
+}
+
+.title {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.type {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input {
+    outline: none;
+    border-radius: 24px;
+    border: 2px solid #96949E;
+    background: #FFF;
+    padding: 12px 24px;
+}
+
+.input::placeholder {
+    color: #96949E;
+    font-size: 18px;
+}
+
+.button {
+    all: unset;
+    cursor: pointer;
+    background-color: #3839bc;
+    padding: 12px 24px;
+    border-radius: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.description {
+    font-size: 14px;
+    margin: 0;
+}
+
+.span {
+    color: #3839bc;
+    cursor: pointer;
+}

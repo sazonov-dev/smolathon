@@ -1,0 +1,91 @@
+.mainContainer {
+    color: #3B3748;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.mainContainerTop {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.gridSectionContainer {
+    background-color: #EBE9ED;
+    width: 100%;
+}
+
+.gridSection {
+    display: grid;
+    max-width: 1280px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(min-content, max-content);
+    gap: 30px;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.gridItem {
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 339px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+
+.gridItemLike {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.gridItemImg {
+    border-radius: 24px 24px 0 0;
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.articleContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.description {
+    font-size: 15px;
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.articleTitle {
+    margin: 0;
+}

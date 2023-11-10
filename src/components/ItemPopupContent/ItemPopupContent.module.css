@@ -1,0 +1,128 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    max-height: 350px;
+    border-radius: 24px 24px 0 0;
+}
+
+.closeIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.itemPopupContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.title {
+    margin: 0;
+    font-size: 25px;
+}
+
+.description {
+    font-size: 14px;
+    margin: 0;
+}
+
+.itemPopupTable {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.itemPopupTableLine {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.itemPopupTableLine:nth-child(1n) {
+    background-color: #EBE9ED;
+}
+
+.itemPopupTableLine:nth-child(2n) {
+    background-color: transparent;
+}
+
+.socialRetweet {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.socialContainer {
+    padding: 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vk {
+    all: unset;
+    cursor: pointer;
+    background-image: url("../../images/vk.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+}
+
+.type {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.copy {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy:before {
+    content: "";
+    background-image: url("../../images/copy.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.location {
+    all: unset;
+    cursor: pointer;
+    background-image: url('../../images/location.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
