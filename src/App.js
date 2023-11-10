@@ -21,13 +21,13 @@ function App() {
         setIsOpen(state);
     }
 
-    useEffect(() => {
-        dispatch(fetchDataFromServer());
-    }, [dispatch]);
+    // useEffect(() => {
+    //     dispatch(fetchDataFromServer());
+    // }, [dispatch]);
 
-    useEffect(() => {
-        console.log(cardData);
-    }, [cardData]);
+    // useEffect(() => {
+    //     console.log(cardData);
+    // }, [cardData]);
 
   return (
     <div className="App">

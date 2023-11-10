@@ -89,3 +89,10 @@ h2 {
 .articleTitle {
     margin: 0;
 }
+
+
+@media screen and (max-width: 640px){
+    .gridSection {
+        justify-items: center;
+    }
+}
