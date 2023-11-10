@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/smolathon/static/css/main.6abe547f.css",
-    "main.js": "/smolathon/static/js/main.168bd626.js",
+    "main.css": "/smolathon/static/css/main.b8d7dac3.css",
+    "main.js": "/smolathon/static/js/main.aaee3901.js",
     "static/media/img-01.jpeg": "/smolathon/static/media/img-01.9ceef06e22ce621f302f.jpeg",
+    "static/media/bag.svg": "/smolathon/static/media/bag.d010544b0d8961fb186f30dfb6adf4f7.svg",
     "static/media/like.svg": "/smolathon/static/media/like.d6e03d634b18d0cb6d9b1c7e24c3c4b1.svg",
     "static/media/vk.svg": "/smolathon/static/media/vk.abbd370a41987fdd6084.svg",
     "static/media/copy.svg": "/smolathon/static/media/copy.44b296a6221d532e0d93.svg",
     "static/media/heart-filled.svg": "/smolathon/static/media/heart-filled.e9b939f6087020595665fc70c78a47d7.svg",
     "index.html": "/smolathon/index.html",
     "static/media/location.svg": "/smolathon/static/media/location.e38eaa74136372d738a1.svg",
-    "main.6abe547f.css.map": "/smolathon/static/css/main.6abe547f.css.map",
-    "main.168bd626.js.map": "/smolathon/static/js/main.168bd626.js.map"
+    "main.b8d7dac3.css.map": "/smolathon/static/css/main.b8d7dac3.css.map",
+    "main.aaee3901.js.map": "/smolathon/static/js/main.aaee3901.js.map"
   },
   "entrypoints": [
-    "static/css/main.6abe547f.css",
-    "static/js/main.168bd626.js"
+    "static/css/main.b8d7dac3.css",
+    "static/js/main.aaee3901.js"
   ]
 }
