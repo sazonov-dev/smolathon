@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/smolathon/static/css/main.b8d7dac3.css",
+    "main.css": "/smolathon/static/css/main.f0cfb35e.css",
     "main.js": "/smolathon/static/js/main.aaee3901.js",
     "static/media/img-01.jpeg": "/smolathon/static/media/img-01.9ceef06e22ce621f302f.jpeg",
     "static/media/bag.svg": "/smolathon/static/media/bag.d010544b0d8961fb186f30dfb6adf4f7.svg",
@@ -10,11 +10,11 @@
     "static/media/heart-filled.svg": "/smolathon/static/media/heart-filled.e9b939f6087020595665fc70c78a47d7.svg",
     "index.html": "/smolathon/index.html",
     "static/media/location.svg": "/smolathon/static/media/location.e38eaa74136372d738a1.svg",
-    "main.b8d7dac3.css.map": "/smolathon/static/css/main.b8d7dac3.css.map",
+    "main.f0cfb35e.css.map": "/smolathon/static/css/main.f0cfb35e.css.map",
     "main.aaee3901.js.map": "/smolathon/static/js/main.aaee3901.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8d7dac3.css",
+    "static/css/main.f0cfb35e.css",
     "static/js/main.aaee3901.js"
   ]
 }
