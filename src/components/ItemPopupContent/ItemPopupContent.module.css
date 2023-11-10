@@ -126,3 +126,16 @@
     width: 24px;
     height: 24px;
 }
+
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 20px;
+    }
+    .description {
+        font-size: 12px;
+    }
+
+    .type {
+        font-size: 12px;
+    }
+}
