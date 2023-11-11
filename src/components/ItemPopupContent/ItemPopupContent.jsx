@@ -4,6 +4,24 @@ import st from '../ItemPopup/ItemPopup.module.css';
 import testImg from '../../images/img-01.jpeg';
 
 const ItemPopupContent = ({item}) => {
+    const getYandexPoint = () => {
+        const api = '87a051dc-0431-4751-abc7-994133696865';
+        const location = item.location.split(',');
+        function generateYandexMapsLink(latitude, longitude) {
+            const baseUrl = "https://yandex.ru/maps/";
+            const queryParameters = `?ll=${longitude},${latitude}&z=15`;
+            return baseUrl + queryParameters;
+        }
+
+        const latitude = location[0];
+        const longitude = location[1].slice(1, location[1].length);
+        const yandexMapsLink = generateYandexMapsLink(latitude, longitude);
+        const yandexNavigatorLink = `yandexnavi://build_route_on_map?lat_to=${latitude}&lon_to=${longitude}`;
+        window.location.href = yandexNavigatorLink;
+        console.log(yandexNavigatorLink)
+        console.log(yandexMapsLink);
+    }
+
     return (
         <div className={styles.content}>
         <img className={styles.img} src={item.image_name} alt={item.title}/>
@@ -23,7 +41,7 @@ const ItemPopupContent = ({item}) => {
                             <p className={styles.type}><span>Дата:</span> {element.date}</p>
                             <p className={styles.type}><span>Время:</span> {element.time}</p>
                         </div>
-                        <button className={styles.location}></button>
+                        <button className={styles.location} onClick={getYandexPoint}></button>
                     </div>
                 </div>
             ))}
