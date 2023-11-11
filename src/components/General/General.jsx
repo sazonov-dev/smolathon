@@ -59,6 +59,7 @@ const General = ({openModal, closeModal, setIsOpen, setModalComponent, modalComp
             case "likeImg":
                 event.target.src = likeFilledImg;
                 if (event.target.dataset.state === 'default') {
+                    console.log('123')
                     event.target.dataset.state = 'filled';
                     event.target.src = likeFilledImg;
                     localStorageHandler(mainCard.dataset.id, 'ADD');
@@ -74,7 +75,6 @@ const General = ({openModal, closeModal, setIsOpen, setModalComponent, modalComp
 
         if (cards.length > 0) {
             const filteredCards = cardData.cards.cards.map((card) => {
-                console.log(cards)
                 if (cards.includes(card.id)) {
                     return card
                 }
