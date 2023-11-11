@@ -19,5 +19,6 @@
         height: 100%;
         justify-content: flex-start;
         overflow-y: auto;
+        border-radius: none;
     }
 }

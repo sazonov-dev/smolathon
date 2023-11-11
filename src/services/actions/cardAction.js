@@ -30,10 +30,10 @@ export const fetchDataFromServer = () => {
     return (dispatch) => {
         dispatch(requestStart());
 
-        fetch('https://run.mocky.io/v3/bf127ba6-d55a-4ce1-9310-91c2c6e52a9f')
+        fetch('http://89.23.98.29:80/main')
             .then((response) => response.json())
             .then(response => {
-                dispatch(requestSuccess(response.cards));
+                dispatch(requestSuccess(response));
             })
             .catch(error => {
                 dispatch(requestFailure(error.message));
