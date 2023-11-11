@@ -30,7 +30,7 @@ export const fetchDataFromServer = () => {
     return (dispatch) => {
         dispatch(requestStart());
 
-        fetch('http://89.23.98.29:80/main')
+        fetch('https://smolenksngo.ru/main')
             .then((response) => response.json())
             .then(response => {
                 dispatch(requestSuccess(response));
