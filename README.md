@@ -17,6 +17,7 @@ npm run start
 **Ссылки**
 
 * [Smolathon](https://sazonov-dev.github.io/smolathon/)
+* [Smolathon-Backend] (https://github.com/sazonov-dev/smolathon-golang)
 
 **Технологии**
 
