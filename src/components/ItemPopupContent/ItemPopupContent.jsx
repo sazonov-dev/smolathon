@@ -22,6 +22,7 @@ const ItemPopupContent = ({item}) => {
         console.log(yandexMapsLink);
     }
 
+
     return (
         <div className={styles.content}>
         <img className={styles.img} src={item.image_name} alt={item.title}/>
